@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукты - Porsche</title>
+    <!-- Включаем Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="https://avatars.mds.yandex.net/i?id=c2811ebacb155d9baade50602c955a3378807da4-4825396-images-thumbs&n=13" type="image/x-icon">
+
+    <style>
+        .card img {
+            height: 250px;
+            object-fit: cover;
+        }
+        .product-card {
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        .product-header {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+        .btn-success-custom {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+        .btn-success-custom:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+
+     <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://avatars.mds.yandex.net/i?id=9ff8872f21b803814494961d4b20271d1e30d45b-10811985-images-thumbs&n=13" alt="Porsche Logo" style="width: 100px; height: auto; border-radius: 40px 40px 40px 40px;">
+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iindex.html">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iiindex.html">Продукты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iiiindex.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+<!-- Продукты Section -->
+<section class="product-header text-center">
+    <div class="container">
+        <h2 class="display-4">Наши Продукты</h2>
+        <p class="lead">Изучите наши высококачественные автомобили Porsche. Вдохновляйтесь их инновациями, мощностью и дизайном.</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Продукт 1 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm mb-4">
+                    <img src="https://avatars.mds.yandex.net/i?id=84b55362a055c86f918f8d00249e50185e0554e9-12394646-images-thumbs&n=13" class="card-img-top" alt="Porsche 911">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche 911</h5>
+                        <p class="card-text">Классический спорткар с элегантным дизайном и мощностью. Невозможно не влюбиться в его динамику.</p>
+                        <a href="#" class="btn btn-success-custom">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Продукт 2 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm mb-4">
+                    <img src="https://avatars.mds.yandex.net/i?id=392ac84a624d4e6f787078d8aff9a35d2871cd48-2856395-images-thumbs&n=13" class="card-img-top" alt="Porsche Taycan">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche Taycan</h5>
+                        <p class="card-text">Электрический спортивный автомобиль с выдающимися характеристиками. Вдохновлен будущим.</p>
+                        <a href="#" class="btn btn-success-custom">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Продукт 3 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm mb-4">
+                    <img src="https://avatars.mds.yandex.net/i?id=656d9e757eebba9e2f859e1a24f5505243ab4093-12463617-images-thumbs&n=13" class="card-img-top" alt="Porsche Cayenne">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche Cayenne</h5>
+                        <p class="card-text">Идеальный внедорожник с непревзойденной производительностью и роскошью. Эксплорация нового уровня.</p>
+                        <a href="#" class="btn btn-success-custom">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Продукт 4 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm mb-4">
+                    <img src="https://avatars.mds.yandex.net/i?id=f606522ec739e40afc9969fc4045048e672dccc3-7757175-images-thumbs&n=13" class="card-img-top" alt="Porsche Panamera">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche Panamera</h5>
+                        <p class="card-text">Элегантный спортивный седан, который сочетает роскошь и динамику в одном автомобиле.</p>
+                        <a href="#" class="btn btn-success-custom">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Продукт 5 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm mb-4">
+                    <img src="https://avatars.mds.yandex.net/i?id=6cf600ebfb612de6c40e4e940141761cfa38968d89f5cd7c-3493926-images-thumbs&n=13" class="card-img-top" alt="Porsche 718 Cayman">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche 718 Cayman</h5>
+                        <p class="card-text">Спортивный автомобиль для тех, кто ценит скорость и утонченность. Идеален для трековых гонок.</p>
+                        <a href="#" class="btn btn-success-custom">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Продукт 6 -->
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm mb-4">
+                    <img src="https://avatars.mds.yandex.net/i?id=c24509ff3134bcbc9ca9cf262940383837b9893d-12524936-images-thumbs&n=13" class="card-img-top" alt="Porsche Macan">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche Macan</h5>
+                        <p class="card-text">Компактный внедорожник с мощным двигателем и отличной управляемостью.</p>
+                        <a href="#" class="btn btn-success-custom">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Porsche. Все права защищены.</p>
+        </div>
+    </footer>
+
+<!-- Включаем Bootstrap JS и его зависимости -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
